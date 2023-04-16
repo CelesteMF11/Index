@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&family=Yeseva+One&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background: #0F2027;  
+    /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(197, 38%, 28%, 0.795), hsla(194, 35%, 19%, 0.815), hsla(198, 43%, 11%, 0.692)), url(img/java.jpg); 
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(198, 39%, 28%, 0.541), hsla(195, 35%, 19%, 0.61), hsla(198, 43%, 11%, 0.76)), url(img/java.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+#cabecera h1 {
+    font-size: 5rem;
+    letter-spacing: 4px;
+    color: white;
+    font-family: "Titillium Web";
+    justify-content: center;
+    padding: 10%;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*BOTONES*/
+.contenedor{
+    text-align: center;
+    flex-direction: row;
+    background-color: #ffff;
+    padding: 50px;
+}
+.btn-1{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2b2929;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fcfcfc;
+    margin-right: 80px;
+}
+.btn-2{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2b2929;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 0px;
+}
+
+/*FORMULARIO CONTACTO*/
+body{
+    font-family: 'Montserrat','sans-serif';
+}
+.form{
+    background-color: #1a1818;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1rem;
+    padding: 3.5rem 1.5rem;
+}
+.form_container{
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 100%;
+}
+.form_tittle{
+    color: #ffff;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+.form_input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius: 0.2em;
+}
+.form_input_message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+.form_cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #dd0a0a;
+    color: #ffffff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: 3em;
+    cursor: pointer;
+    font-weight: 400;
+}
+@media (max-width:450px){
+    .form{ 
+        padding: 3.5em 1em;
+    }
+}
+.mapa{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+/* */
+#pie {
+    clear: both; 
+    text-align: center;
+    padding: 50px;
+    border-top: 2px solid #999999;
+    margin: 1rem;
+  }
+  figcaption {
+    font: italic 14px verdana, sans-serif;
+  }
